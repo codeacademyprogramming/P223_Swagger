@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4d72eae7-e983-42d6-aed8-8d28b2bd1d83": {
+      "ProjectGuid": "4d72eae7-e983-42d6-aed8-8d28b2bd1d83",
+      "DisplayName": "ShopMvc",
+      "ColorIndex": 0
+    },
+    "cb503468-ac8f-47f0-a250-b769a4daec91": {
+      "ProjectGuid": "cb503468-ac8f-47f0-a250-b769a4daec91",
+      "DisplayName": "ShopApiP223",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

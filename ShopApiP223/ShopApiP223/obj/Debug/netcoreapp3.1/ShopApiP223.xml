@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopApiP223</name>
+    </assembly>
+    <members>
+        <member name="M:ShopApiP223.Apps.UserApi.AccountsController.Register(ShopApiP223.Apps.UserApi.DTOs.AccountDtos.RegisterDto)">
+            <summary>
+            
+            </summary>
+            <response code="201">New user created succeffuly</response>
+            <response code="409">User already exist with same username</response>
+            <param name="registerDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApiP223.Apps.UserApi.AccountsController.Login(ShopApiP223.Apps.UserApi.DTOs.AccountDtos.LoginDto)">
+            <summary>
+            To get a token
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/accounts/login
+                {
+                   "username":"Hikmet",
+                   "password":"Hikmet123"
+                }
+            </remarks>
+            <param name="loginDto"></param>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>
